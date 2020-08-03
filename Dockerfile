@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-LABEL maintainer="Katsumi Kishikawa <kishikawakatsumi@mac.com>"
+LABEL maintainer="Jonathan Pappas <jonnyboypappas@gmail.com>"
 LABEL Description="Docker Container for the Apple's Swift programming language"
 
 # Install related packages and set LLVM 3.8 as the compiler
