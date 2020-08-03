@@ -64,7 +64,7 @@ app.get('/versions', function(req, res) {
   res.send({ versions: availableVersions() });
 });
 
-app.post('/run', function(req, res) {
+app.post('/playground/run', function(req, res) {
   const path = require('path');
   const Sandbox = require('./sandbox');
 
