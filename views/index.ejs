@@ -206,7 +206,7 @@ print("f(5) = \(y)")
           toolchain_version: $("#versionSelect").val().replace('/', '_'),
           code: code
         };
-        $.post('/run', json, function(data, error, xhr) {
+        $.post('/playground/run', json, function(data, error, xhr) {
           resultsEditor.setValue(data.version + data.errors + data.output);
           resultsEditor.clearSelection();
           clearInterval(intid);
